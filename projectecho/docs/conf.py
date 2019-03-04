@@ -1,4 +1,4 @@
-# djangoproject documentation build configuration file, created by
+# Echo documentation build configuration file, created by
 # sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -39,8 +39,8 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "djangoproject"
-copyright = """2019, Ngoni"""
+project = "Echo"
+copyright = """2019, Ngoni Mombeshora"""
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -163,7 +163,7 @@ html_static_path = ["_static"]
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "djangoprojectdoc"
+htmlhelp_basename = "projectechodoc"
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -182,9 +182,9 @@ latex_elements = {
 latex_documents = [
     (
         "index",
-        "djangoproject.tex",
-        "djangoproject Documentation",
-        """Ngoni""",
+        "projectecho.tex",
+        "Echo Documentation",
+        """Ngoni Mombeshora""",
         "manual",
     )
 ]
@@ -217,9 +217,9 @@ latex_documents = [
 man_pages = [
     (
         "index",
-        "djangoproject",
-        "djangoproject Documentation",
-        ["""Ngoni"""],
+        "projectecho",
+        "Echo Documentation",
+        ["""Ngoni Mombeshora"""],
         1,
     )
 ]
@@ -236,11 +236,11 @@ man_pages = [
 texinfo_documents = [
     (
         "index",
-        "djangoproject",
-        "djangoproject Documentation",
-        """Ngoni""",
-        "djangoproject",
-        """first one""",
+        "projectecho",
+        "Echo Documentation",
+        """Ngoni Mombeshora""",
+        "Echo",
+        """Django project echo""",
         "Miscellaneous",
     )
 ]
